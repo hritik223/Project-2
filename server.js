@@ -15,7 +15,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/templeDB")
 // Routes
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/temple", require("./routes/templeRoutes"));
-app.post("/api/auth/login", ...);
 
 app.listen(5000, () => {
   console.log("Server running on port 5000");
