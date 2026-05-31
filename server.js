@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB connect
-mongoose.connect("mongodb://127.0.0.1:27017/templeDB")
+mongoose.connect("mongodb+srv://viritik345_db_user:<db_password>@cluster0.xd45rex.mongodb.net/?appName=Cluster0")
 .then(()=> console.log("DB Connected"))
 .catch(err => console.log(err));
 
