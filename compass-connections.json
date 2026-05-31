@@ -1,0 +1,40 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "27c7f076-8f5e-485e-88ca-85cece707caf",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1777538681025"
+        }
+      },
+      "favorite": {
+        "name": "backend"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    },
+    {
+      "id": "9ead958b-e427-465a-b688-994c8b6cd57f",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1777540930707"
+        }
+      },
+      "favorite": {
+        "name": "127.0.0.1:27017"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://127.0.0.1:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
